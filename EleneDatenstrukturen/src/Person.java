@@ -7,8 +7,11 @@ public class Person {
 	
 	public Person() {};
 	
-	public Person(String Name, int Age, String Job, String Children){
-		
+	public Person(String name, int age, String job, String children){
+		this.Name = name;
+		this.Age = age;
+		this.Job = job;
+		this.Children = children;
 	}
 	
 	public void printData(String whoAreYouInterestedIn, String whatAreYouInterestedIn) {
